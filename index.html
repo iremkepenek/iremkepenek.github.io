@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Araba Galerisi</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="banner d-flex align-items-center">
+          <span class="sd">En Popüler Araba Markaları</span>
+        </div>
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">ARABA GALERİSİ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#marka">Araba Markalarının Siteleri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#begenilen">En Beğenilen Arabalar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#iletisim">İletişim</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="arama">
+                <input class="form-control me-2" type="arama" placeholder="arama" aria-label="arama">
+                <button class="btn btn-outline-success" type="submit">arama</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="row">
+            <div class="col-md-6">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                  <img src="./IMG/images.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMG/indir.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="./IMG/indir (1).jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Öncesi</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"></span>
+                </a>
+              </div>
+            </div>
+
+            <div class="row mt-3" id="two">
+              <div class="col-md d-flex flex-wrap">
+               <div class="card">
+                 <img src="./IMG/indir (2).jpg" class="card-img-top" alt="...">
+                 <span class="bmw">BMW M4 özellikleri</span>
+                 <div class="card-body">
+                   <h5 class="card-title">BMW</h5>
+                   <p class="card-text">BMW'nin en çok tercih edilen arabısıdır.</p>
+                   <a href="#" class="btn btn-primary">özellikleri</a>
+                 </div>
+               </div>
+               <div class="card">
+                 <img src="./IMG/indir (3).jpg" class="card-img-top" alt="...">
+                 <span class="mercedes">Mercedes c180 özellikleri</span>
+                 <div class="card-body">
+                   <h5 class="card-title">Mercedes c180</h5>
+                   <p class="card-text">Mercedes'nin en çok tercih edilen arabısıdır.</p>
+                   <a href="#" class="btn btn-primary">özellikleri</a>
+                 </div>
+               </div>
+               <br><hr>
+
+               <h2 id="marka"class="marka">ARABA MARKALARININ SİTELERİ</h2>
+               <div class="banner d-flex align-items-center">
+                 <span class="sd2">Araba Siteler</span>
+                 <marquee  direction="left">Araba siteleri </marquee>
+               </div>
+               <div class="row mt-3" id="two">
+                  <div class="col-md d-flex flex-wrap">
+                   <div class="card">
+                     <img src="./IMG/indir (7).jpg" class="card-img-top" alt="...">
+                     <span class="markalar">Araba Markaları</span>
+                     <div class="card-body">
+                      <h5 class="card-title">BMW</h5>
+                      <p class="card-text">Bmw'nin sitesine gitmek için bu kartı kullanınız.</p>
+                      <a href="https://www.bmw.com.tr/" target="_blank" class="btn btn-primary">TIKLAYINIZ</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="./IMG/indir (5).jpg" class="card-img-top" alt="...">
+                    <span class="markalar">Araba Markaları</span>
+                    <div class="card-body">
+                      <h5 class="card-title">MERCEDES</h5>
+                      <p class="card-text">Mercedes'in sitesine gitmek için bu kartı kullanınız.</p>
+                      <a href="https://www.mercedes-benz.com.tr/" target="_blank" class="btn btn-primary">TIKLAYINIZ</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="./IMG/indir (6).jpg" class="card-img-top" alt="...">
+                    <span class="markalar">Araba Markaları</span>
+                    <div class="card-body">
+                      <h5 class="card-title">HONDA</h5>
+                      <p class="card-text">Honda'nın sitesine gitmek için bu kartı kullanınız.</p>
+                      <a href="https://www.honda.com.tr/" target="_blank" class="btn btn-primary">TIKLAYINIZ</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="./IMG/indir (4).jpg" class="card-img-top" alt="...">
+                    <span class="markalar">Araba Markaları</span>
+                    <div class="card-body">
+                      <h5 class="card-title">MİNİ</h5>
+                      <p class="card-text">Mini'nin sitesine gitmek için bu kartı kullanınız.</p>
+                      <a href="https://www.mini.com.tr/" target="_blank" class="btn btn-primary">TIKLAYINIZ</a>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+                <hr>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h3 id="begenilen"class="begenilen">EN BEĞENİLEN ARABALAR</h3>
+                  <div class="accordion">
+                    <div class="accordion__item">
+                      <h3 class="accordion__title js-title">Bmw</h3>
+                      <p class="accordion__copy accordion__copy--open js-copy">“BMW” ismi “Bayerische Motoren Werke GmbH” şirket isminin kısaltmasından oluşuyor, yani çok kabaca “Bavyera Motor İşleri Şirketi” olarak tercüme edebiliriz.</p>
+                    </div>
+  
+                    <div class="accordion__item">
+                      <h3 class="accordion__title js-title">MERCEDES
+                    </h3>
+                      <p class="accordion__copy js-copy">Mercedes-Benz, 1926 yılında Karl Benz'in şirketi Benz & Cie. ve Gottlieb Daimler'in şirketi Daimler Motoren Gesellschaft'in birleşmesi sonucu kurulmuş otomotiv markası.Almanya`nın Stutgart şehri`nde kurulmuştur.</p>
+                    </div>        
+                    <div class="accordion__item">
+                      <h3 class="accordion__title js-title">FERRARİ</h3>
+                      <p class="accordion__copy js-copy">Ferrari S.p.A., merkezi ve kuruluş yeri İtalya'nın Modena şehrinin yakınındaki Maranello'da olan İtalyan bir lüks spor otomobili üreticisidir. 1929'da Alfa Romeo'nun yarış takımı olarak kurulmuş, 1947'de pist dışına da yasal olarak uygun otomobil üretimine başlamıştır.</p>
+                    </div>
+                  </div>
+                </div>
+              <div>
+                <form>
+                  <input type="text" id="kullaniciad" placeholder="kullaniciadi"/> <br/>
+                  <input type="password" id="kullanicisifre" placeholder="sifre"></input> <br/>
+                  <button type="button" onclick="kontrol()">Kaydol</button>
+                  <p class="result" id="result"></p>
+                  <button id="giris" onclick="deneme(klncadi, sifre)">Giriş</button> 
+                  <button id="sifreunuttum">Şifremi Unuttum</button>
+                  <input type="reset" id="submit" name="submit" value="Reset" onclick="checkForm();"/>
+                </form>
+              </div>
+
+              <div class="row">
+              <h3 class="text-center p-4">Araba Galerisi</h3>
+              <div class="col-md-4 p-3">
+                <div class="list-group list-group-flush text-center">
+                  <li class="list-group-item"><a class="text-decoration-none" href="#site">Araba Markalarının siteleri</a></li>
+                  <li class="list-group-item"><a class="text-decoration-none" href="#begenilen">En Beğenilen Arabalar</a></li>
+                  <li class="list-group-item"><a class="text-decoration-none" href="#iletisim">İletişim</a></li>
+                  <li class="list-group-item"><a class="text-decoration-none" href="#hakkımızda">Hakkımızda</a></li>
+                </div>
+              </div>
+              
+             <div>
+               <p>UMARIZ SİTEMİZDEN MEMNUN KALMISSINIZDIR.</p>
+             </div>
+             <div>
+             <span>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99022.39428011268!2d34.099656880935434!3d39.141749491177976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d572c090d21383%3A0x6dd29199261c3d06!2zS8SxcsWfZWhpciwgS8SxcsWfZWhpciBNZXJrZXovS8SxcsWfZWhpcg!5e0!3m2!1str!2str!4v1653297668876!5m2!1str!2str" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </span>
+             <span><iframe width="200" height="200" src="https://www.youtube.com/embed/ntajiETe7Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+            </div>
+             <form name="search" onSubmit="return findInPage(this.string.value);">
+              <input name="string" type="text" onChange="n = 0;">
+              <input type="submit" value="Sayfada Ara" name="submit">
+            </form>
+
+          
+</body>
+</html>

@@ -1,0 +1,156 @@
+.sd{
+    background-color: rgb(125, 74, 166);
+    color:White;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+}
+.sp{
+    background-color: rgb(61, 226, 28);
+    color:White;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+}
+.sd2{
+    background-color: rgb(15, 11, 230);
+    color:White;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+}
+
+.banner{
+    border:1px solid #ccc;
+     margin:10px 0;
+}
+
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+.navbar-brand::first-letter{
+    font-size: 25px;
+}
+
+
+.carousel-item img {
+  height: 300px;
+}
+
+.card {
+    position: relative;
+    padding: 15px;
+}
+
+.card .btn {
+    display: block;
+    background-color: black;
+    color: azure;
+}
+
+.card .bmw {
+    background-color: rgb(75, 154, 191);
+    position: absolute;
+    right: 0;
+    color:white;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.card .mercedes {
+    background-color: rgb(210, 98, 205);
+    position: absolute;
+    right: 0;
+    color:white;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+#two .card{
+    width: 30%;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 15px 15px 8px grey;
+    border-radius: 6px;
+}
+
+.markalar{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px grey;
+}
+.marka{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px grey;
+}
+.begenilen{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px grey;
+}
+
+
+
+
+@media(max-width:768px) {
+    #two .card{
+        width: 100%;
+    }
+    .card:hover{
+        transform:none;
+        transition: none;
+        z-index: none;
+        box-shadow: none;
+        border-radius: none;
+    }
+}
+.accordion {
+    max-width: 600px;
+    margin: 4rem auto;
+    width: 90%;
+    font-family: "Raleway", sans-serif;
+    background: #f4f4f4;
+    }
+    .accordion__title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1rem 1.5rem;
+    background: #5B5F97;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+    }
+    .accordion__title:hover {
+    background: #484b77;
+    }
+    .accordion__copy {
+    display: none;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    color: gray;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .accordion__copy--open {
+    display: block;
+    }
+
+
+    body {
+    background: #222;
+    }
+    
+    .result {color:red}
+
+    
